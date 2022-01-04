@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rana University</title>
+	<style type="text/css">
+		body{
+			
+		}
+		.title{
+			text-align: center;
+			margin: -9px -8px 0px;
+			padding: 10px;
+			top: 40px;
+            border: solid red;
+            border-right: 0px;
+            border-left: 0px;
+            border-top: 0px;
+            
+			position: 0px;
+			height: 82px;
+			background-color: #ffffff;
+		}
+		.rana{
+			position: absolute;
+			left: 5px;
+			width: 200px;
+			height: 80px;
+		}
+		.prof{
+			width: 55px;
+			height: 50px;
+			border-radius: 50px;
+			position: absolute;
+			right: 12px;
+			top:20px; 
+		}
+		.Login{
+			position: absolute;
+			right: 14px;
+			top: 75px;
+			background-color: #ffffff;
+			border-radius: 20px;
+            border: 0px;
+		}
+		.Login:hover{
+			transform: scale(1.09);
+		}
+		.opstion{
+			margin-top: 55px;
+            margin-left: 85px;	
+		}
+		.table-opstion{
+            margin: auto;
+			width: 400px;
+		}
+		.Admission{
+			
+			border:solid ;
+			border-color: black;
+			border-top: 0px;
+			border-left: 0px;
+			border-right: 0px;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius:5px;
+		}
+		.Home:hover{
+			transform: scale(1.09);
+		}
+		.Admission:hover{
+		transform: scale(1.09);
+			}
+		.University:hover{
+			transform: scale(1.09);
+		}
+		.Student:hover{
+			transform: scale(1.09);
+		}
+		.Services:hover{
+			transform: scale(1.09);
+		}
+		.button{
+			width: 55px;
+			border-radius: 20px;
+            border: 0px;
+		}
+		.tone{
+			position: absolute;
+			right: 88px;
+			top: 15px;
+		}
+		.button:hover{
+			transform: scale(1.09);
+		}
+        #Home{
+            color: black;
+            text-decoration: none;
+        }
+        
+        
+        
+        
+        
+        .All-Courses{
+            text-align: center;
+            color: red;
+        }
+        
+        
+        
+        /*  Admission*/
+        
+        .course-table{
+            text-align: center;
+            width: 330px;
+        }
+        
+        #admission-di{
+            text-align: center;
+            border: solid;
+        }
+        .admission-table{
+            width: 400px;
+            text-align: center;
+            padding: 15px;
+        }
+        .selact{
+            text-align: left;
+        }
+        .photo{
+            width: 180px;
+            border: 0px;
+        }
+        .send-button{
+            text-align: right;
+        }
+        .div1{
+            height: 500px;
+            text-align: center;
+        }
+        
+        
+        
+        
+        /*   bottom Table   */
+        #bottm{
+           text-align: center;
+            margin: auto -8px -8px -8px;
+            background-color: red;
+            padding: 10px;
+        }
+        .media{
+            text-align: center;
+             margin-top: 0px;
+            width: 20px;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #bottom-table{
+            margin: 30px auto 20px auto;
+            text-align: center;
+            width: 600px;
+        }
+        .bottom-table-name{
+            text-decoration: none;
+            color: darkred;
+        }
+	</style>
+</head>
+<body>
+          <div class="title">
+	          <div class="tone">
+	             <table>
+		            <tr><th><input class="button" type="button" value="پښتو"name="" onclick="window.location.href='ADM.html'"></th></tr>
+		            <tr><th><input class="button" type="button" value="دری"name=""onclick="window.location.href='adm1.html'"         ></th></tr>
+		         </table>
+		      </div>
+	                 <img class="rana" src="Rana.png">
+	          <div class="opstion">
+	             <table class="table-opstion">
+		           <tr>
+		               <th class="Home"><a href="Home1.html" id="Home">Home</a></th>
+			           <th class="Admission"><a href="" id="Home">Admission</a></th>
+			           <th class="University"><a href="University.html" id="Home">University</a></th>
+			           <th class="Student"><a href="Student.html" id="Home">Student</a></th>
+			           <th class="Services"><a href="Services.html" id="Home">Services</a></th>
+                   </tr>
+
+	             </table>
+              </div>
+	                   <a href="Rana Uni.html"><img class="prof" src="prof.png"></a>
+	                  <input class="Login" type="button" value="Login" name="" onclick="window.location.href='Rana Uni.html'">
+          </div>
+    
+    <div class="All-Courses">
+       <h1>Anformation About All Courses</h1>
+    </div>
+                                     
+                                     
+                                     
+                                     
+                                      <!-- Admission -->
+                                      
+                                      
+                                      
+                                      
+                                      
+               <div class="div1">
+                    <table class="course-table" >
+                             <tr>
+                                 <th class="selact">Selact Course</th>
+                                 <th> <label for="bcs">BCS</label> <input type="radio" name="course" id="bcs"></th>
+                                 <th> <label for="bba">BBA</label><input id="bba" type="radio" name="course"></th>
+                                 <th><label for="bps">BPS</label><input id="bps" type="radio" name="course"></th>
+                            </tr>
+                    </table>
+
+                    <table>
+                        <tr><th class="selact"><label>Name</label> </th><th><input type="text" placeholder="Ex: Najeebullah"></th> </tr>
+                        <tr><th class="selact"><label>F.Name</label></th><th><input type="text" placeholder="Ex: Nasratullah"></th></tr>
+                        <tr><th class="selact"><label>L.Name</label></th><th><input type="text" placeholder="Ex: Habibi"></th></tr>
+                        <tr><th class="selact"><label>Pon</label></th><th><input type="number"  placeholder="Ex: +93730814013"></th></tr>
+                        <tr><th class="selact"><label>E-Mail</label></th><th><input type="email" placeholder="exampal@gmail.com" ></th></tr>
+                        <tr><th class="selact"><label>Selact Photo</label></th><th><input class="photo" type="file"  ></th></tr>
+                        <tr><th class="selact"><label>School Dacuments</label></th><th><input class="photo" type="file"  ></th></tr>
+                            <caption>
+                                <tr class="send-button">
+                                    <th colspan="2"><input  type="reset"  class="button"  ><input  type="button" value="send" class="button"  ></th>
+                                </tr>
+                            </caption>
+                    </table>
+               </div>
+    
+    
+    
+                                   <!-- Bottm Saction -->
+    
+    
+    
+               <div id="bottm">
+                   <table id="bottom-table">
+                        <th><img class="media" src="Facwbook.png"> <a class="bottom-table-name" href="https://www.facebook.com/ru.edu.af/">Facebook</a></th>
+                        <th><img class="media" src="twetar.jpg"> <a class="bottom-table-name" href="https://twitter.com/rana_universitya">Twetar</a></th>
+                        <th><img class="media" src="instagram.jpg"> <a class="bottom-table-name" href="https://www.instagram.com/rana_university_ru/?hl=en">Instagram</a></th>
+                    </table>
+               </div>
+</body> 
+</html>
